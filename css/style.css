@@ -1,0 +1,107 @@
+h1{
+    font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 500px;
+  font-style: normal;
+}
+h3{
+    font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 300px;
+  font-style: normal;
+}
+h3{
+    color: aqua;
+}
+.f2{
+    color:blue;
+}
+#i2{
+    color:rgb(42, 100, 182);
+}
+header,footer{
+    background: linear-gradient(to left,rgb(71, 60, 170),rgb(33, 48, 117));
+    color:white;
+    padding: 4px;
+    text-align: center;
+}
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: azure;
+    color: darkblue;
+    line-height: 1.5;
+    margin:0;
+    padding: 0;
+}
+hr{
+    width: 50%;
+    margin: 20px auto;
+    border: 1px solid rgb(4, 52, 124);
+}
+h3,h4{
+    font-weight: 700;
+}
+p,a{
+    font-weight: 400;
+}
+a{
+    color: rgb(39, 179, 39);
+    text-decoration: none;
+    display: inline-block;
+    margin: 50px 0;
+}
+a:hover{
+    color:rgb(239, 39, 169);
+}
+.fas,.fab{
+    margin-right: 50px;
+    color:crimson;
+}
+.icon-link{
+    display:inline-block;
+    margin:0 10px;
+    width:60px;
+    height:60px;
+    border-radius:50%;
+    color:#fff;
+    font-size:24px;
+    line-height:60px;
+    text-align:center;
+}
+.email-icon{
+    background-color: aquamarine;
+}
+.linkedin-icon{
+    background-color: aqua;
+}
+.icon-link:hover{
+    transform:scale(1.1);
+    color:blueviolet;
+}
+section{
+    padding: 20px;
+    text-align: center;
+}
+img{
+    width: 200px;
+    height: 200px;
+    border-radius:50px;
+    box-shadow: 0 5px 15px rgb(83, 102, 208);
+    object-fit: cover;
+}
+ul{
+    list-style-type: none;
+    padding:0;
+    text-align:center;
+}
+ul li{
+    display:inline-block;
+    background-color: #f0f2f5;
+    padding:10px 15px;
+    border-radius: 5px;
+    box-shadow:0 2px 4px red;
+}
+form{
+    width:100%;
+    max-width:500px;
+}
